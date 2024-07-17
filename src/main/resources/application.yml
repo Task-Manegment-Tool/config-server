@@ -10,3 +10,7 @@ spring:
         git:
           uri: https://github.com/drekhate/task-management-config.git
           clone-on-start: true
+eureka:
+  client:
+    fetch-registry: true
+    register-with-eureka: true
